@@ -52,6 +52,9 @@ ENABLE_SWD                    ?= 0
 ENABLE_OVERLAY                ?= 0
 ENABLE_LTO                    ?= 1
 
+# single VFO 1.5kB
+ENABLE_SINGLE_VFO_CHAN        ?= 1
+
 #############################################################
 
 TARGET = firmware
