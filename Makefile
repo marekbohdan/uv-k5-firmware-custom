@@ -5,7 +5,7 @@
 
 # ---- STOCK QUANSHENG FERATURES ----
 ENABLE_UART                   ?= 1
-ENABLE_AIRCOPY                ?= 1
+ENABLE_AIRCOPY                ?= 0
 ENABLE_FMRADIO                ?= 0
 ENABLE_NOAA                   ?= 0
 ENABLE_VOICE                  ?= 0
@@ -25,7 +25,7 @@ ENABLE_WIDE_RX                ?= 1
 ENABLE_TX_WHEN_AM             ?= 0
 ENABLE_F_CAL_MENU             ?= 0
 ENABLE_CTCSS_TAIL_PHASE_SHIFT ?= 0
-ENABLE_BOOT_BEEPS             ?= 1
+ENABLE_BOOT_BEEPS             ?= 0
 ENABLE_SHOW_CHARGE_LEVEL      ?= 1
 ENABLE_REVERSE_BAT_SYMBOL     ?= 0
 ENABLE_NO_CODE_SCAN_TIMEOUT   ?= 1
@@ -51,9 +51,6 @@ ENABLE_CLANG                  ?= 0
 ENABLE_SWD                    ?= 0
 ENABLE_OVERLAY                ?= 0
 ENABLE_LTO                    ?= 1
-
-# single VFO 1.5kB
-ENABLE_SINGLE_VFO_CHAN        ?= 1
 
 #############################################################
 
